@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive side menu</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body >
+   <div class="container">
+    
+  <nav class="navbar">
+    <div class="navbar-header ">
+    <a href="#"><img src="logo2.png" alt="" ></a>
+  </div>
+    <span class="open-slide">
+      <a href="#" onclick="openSlideMenu()">
+        <svg width= "30" height="30">
+          <path d="M0,5 30,5" stroke="#000" stroke-width="5"/>
+          <svg width= "30" height="30"/>
+            <path d="M0,14 30,14" stroke="#000" stroke-width="5"/>
+            <svg width= "30" height="30"/>
+              <path d="M0,23 30,23" stroke="#000" stroke-width="5"/>
+        </svg>
+      </a>
+    </span>
+
+    <ul class="navbar-nav">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Services</a>
+      </li>
+      <li><a href="#">Contact</a></li>
+      
+    </ul>
+  </nav>
+  <div id="side-menu" class="side-nav">
+    <a href="#" class="Btn-close" onclick="closeSlideMenu()">&times;</a>
+      <a href= '#'>Home</a>
+      <a href= '#'>About</a>
+      <a href= '#'>Services</a>
+      <a href= '#'>Contact</a>
+  </div>
+  <div id="main" onclick="closeSlideMenu()">
+    <h1>Responsive Side Menu</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro at quidem ab quam aliquam rerum cum! Non possimus, fuga animi quam tempore ducimus, eum saepe beatae suscipit temporibus corporis Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus repellendus deleniti vel, eius sed nobis esse alias qui laudantium, perspiciatis pariatur ipsum ratione amet exercitationem nisi repellat ullam error hic! Harum sit quae nihil, itaque cumque quaerat fugiat exercitationem obcaecati sapiente ipsum, iure, impedit quas. Pariatur fuga praesentium id facere!</p>
+  </div> 
+
+
+  <script src="app.js"></script>
+</div>
+</body>
+</html>

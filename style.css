@@ -1,0 +1,171 @@
+ body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f4;
+  overflow-x: hidden;
+}
+/* 
+  *{
+box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #37474f;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.spinner-box {
+  width:300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+
+.solar-system {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.orbit {
+  position:relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ffffffa5;
+  border-radius: 50%;
+}
+
+.earth-orbit {
+  width: 165px;
+  height: 165px;
+  animation: spin 12s linear 0s infinite;
+}
+
+.venus-orbit {
+  width: 120px;
+  height: 120px;
+  animation: spin 7.4s linear 0s infinite;
+}
+
+.mercury-orbit {
+  width: 90px;
+  height: 90px;
+  animation: spin 3s linear 0s infinite;
+}
+
+.planet {
+  position: absolute;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #3ff9dc;
+}
+
+.sun {
+  width: 35px;
+  height:35px;
+  border-radius: 50%;
+  background-color: #ffab91;
+}
+
+@keyframes spin {
+  from{transform: rotate(0);}
+  to{transform: rotate(359deg);}
+} */
+
+
+.navbar {
+  background-color: #3b5998;
+  overflow: hidden;
+  height: 63px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar ul {
+  padding: 8px 0 0 0;
+  list-style: none;
+}
+
+.navbar a:hover {
+  background-color: #dddddd;
+  color: #000;
+}
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: aqua;
+}
+
+.Btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+@media (max-width: 568px) {
+  .navbar-nav {
+    display: none;
+  }
+}
+
+@media (min-width: 568px) {
+  .open-slide{display: none;}
+}
+
+
+
